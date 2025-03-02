@@ -1,3 +1,4 @@
+import "./Statystyki.styles.css";
 const Statystyki = () => {
   return <div>Statystyki</div>;
 };
