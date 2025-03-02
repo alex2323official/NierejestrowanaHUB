@@ -2,11 +2,12 @@ import { googleLogout } from "@react-oauth/google";
 import { useNavigate } from "react-router";
 import "./Header.styles.css";
 const Header = () => {
-  let navigate = useNavigate();
+  const navigate = useNavigate();
   // Use this handler to logout from app
   const handleLogout = () => {
     googleLogout();
-    navigate("/");
+    localStorage.removeItem("user"); // Remove stored user data
+    navigate("/"); // Redirect to home
   };
   return (
     <div className="header">
