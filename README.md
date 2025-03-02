@@ -27,3 +27,7 @@ _(Add a screenshot or GIF of your app here, if available)_
 ## 📩 **Contact**
 
 For any inquiries, feel free to reach out!
+
+## 🔨 **In Progress**
+
+- Make auth system better (rewrite it!), maybe use Ract global props (React Context)
