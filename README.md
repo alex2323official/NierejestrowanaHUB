@@ -4,11 +4,11 @@ A web application designed for individuals using **Działalność Nierejestrowan
 
 ## 🚀 **Features**
 
-✅ Some feature here
-✅ Some feature here
-✅ Some feature here
-✅ Some feature here
-✅ Some feature here
+- ✅ Some feature here
+- ✅ Some feature here
+- ✅ Some feature here
+- ✅ Some feature here
+- ✅ Some feature here
 
 ## 🛠 **Technologies Used**
 
@@ -16,7 +16,7 @@ A web application designed for individuals using **Działalność Nierejestrowan
 - **Backend:** Node.js, Express
 - **Database:** PostgreSQL
 
-## ⚠️ **License & Usage**
+## 📝 **License & Usage**
 
 This project is **for viewing purposes only**. You are **not permitted** to use, copy, modify, or distribute this code in any way.
 
