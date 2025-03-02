@@ -12,8 +12,8 @@ import Ustawienia from "./assets/pages/Ustawienia/Ustawienia.tsx";
 import Page404 from "./assets/pages/Page404/Page404.tsx";
 
 createRoot(document.getElementById("root")!).render(
-  <BrowserRouter>
-    <StrictMode>
+  <StrictMode>
+    <BrowserRouter>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -23,6 +23,6 @@ createRoot(document.getElementById("root")!).render(
         <Route path="*" element={<Page404 />} />
       </Routes>
       <Footer />
-    </StrictMode>
-  </BrowserRouter>
+    </BrowserRouter>
+  </StrictMode>
 );
