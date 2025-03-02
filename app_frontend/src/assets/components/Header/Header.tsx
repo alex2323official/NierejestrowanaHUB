@@ -1,5 +1,13 @@
+import { googleLogout } from "@react-oauth/google";
+import { useNavigate } from "react-router";
 import "./Header.styles.css";
 const Header = () => {
+  let navigate = useNavigate();
+  // Use this handler to logout from app
+  const handleLogout = () => {
+    googleLogout();
+    navigate("/");
+  };
   return (
     <div className="header">
       <nav className="header__nav">
@@ -23,6 +31,11 @@ const Header = () => {
             <a href="/ustawienia" className="header__a">
               Ustawienia
             </a>
+          </li>
+          <li className="header__li">
+            <button onClick={handleLogout} className="header__btn-logout">
+              Wyloguj
+            </button>
           </li>
         </ul>
       </nav>
